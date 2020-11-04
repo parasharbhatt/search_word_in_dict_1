@@ -14,14 +14,15 @@ from difflib import get_close_matches
 
 print(os.getcwd())
 
-dict_file= os.path.join( str( os.getcwd()) ,'data.json')
+dict_file= os.path.join( str( os.getcwd()) ,'search_word_in_dict_1\data.json')
+#dict_file='search_word_in_dict_1\data.json'
 print(dict_file)
 
-"""
+
 with open(dict_file , "r") as fp:
     fl_content=fp.read()
 fp.close()    
-"""
-#C:\Users\sunday\Desktop\work\pb_python\py_vscode\py_github_projects\search_word_in_dict_1\data.json
+
+
 
 #print(fl_content)
